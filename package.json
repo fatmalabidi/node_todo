@@ -1,30 +1,63 @@
-{
-  "name": "node_todo",
-  "version": "1.0.0",
-  "description": "A simple checklist application using nodeJS to create the package.json",
-  "main": "index.js",
-  "scripts": {
+{ <<
+    << << < HEAD
+        "name": "node_todo",
+        "version": "1.0.0",
+        "description": "A simple checklist application using nodeJS to create the package.json",
+        "main": "index.js",
+        "scripts": {
+            "t      est": "echo \"Error: no test specified\" && exit 1"
+        },
+        "rep    ository": {
+            "t   ype": "git",
+            "u  rl": "git+https://github.com/fatmalabidi/node_todo.git"
+        },
+        "keywo    rds": [
+            "t   odo"
+        ],
+        "a    uthor": "Fatma Labidi",
+        "lic   ense": "ISC",
+        "bug  s": {
+            "u rl": "https://github.com/fatmalabidi/node_todo/issues"
+        },
+        "homep        age": "https://github.com/fatmalabidi/node_todo#readme",
+        "dependencies": {
+            "mocha": "^8.2.0"
+        },
+        "devDependencies": {
+            "b      ody-parser": "^1.19.0",
+            "e     js": "^3.1.5",
+            "m    ongoose": "^5.10.9"
+        }
+} ===
+=== =
+"t   ype": "module",
+"n  ame": "node_todo",
+"v ersion": "1.0.0",
+"description": "A simple checklist application using nodeJS to create the package.json",
+"main": "app.js",
+"s cripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+},
+"repository": {
     "type": "git",
     "url": "git+https://github.com/fatmalabidi/node_todo.git"
-  },
-  "keywords": [
-    "todo"
-  ],
-  "author": "Fatma Labidi",
-  "license": "ISC",
-  "bugs": {
+},
+"k     eywords": [
+    "todo",
+    "node"
+],
+"a    uthor": "Fatma Labidi",
+"l   icense": "ISC",
+"b  ugs": {
     "url": "https://github.com/fatmalabidi/node_todo/issues"
-  },
-  "homepage": "https://github.com/fatmalabidi/node_todo#readme",
-  "dependencies": {
-    "mocha": "^8.2.0"
-  },
-  "devDependencies": {
+},
+"hom   epage": "https://github.com/fatmalabidi/node_todo#readme",
+"d  evDependencies": {},
+"dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
+    "express": "^4.17.1",
     "mongoose": "^5.10.9"
-  }
 }
+} >>>
+>>> > 8242e7 b3d59583ed7cfc058d61e8e31a8e730e05
