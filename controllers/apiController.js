@@ -24,7 +24,7 @@ export default function(app) {
     })
 
     // this endpoint handles [add] and [update] based on the todo [id] in the request body
-    app.post('/api/todo', function(req, res) {
+    app.post('/api/todos', function(req, res) {
         if (req.body.id) {
             Todos.findByIdAndUpdate(req.body.id, {
                 todo: req.body.todo,
@@ -49,7 +49,7 @@ export default function(app) {
     });
 
     // this endpoint handles  delete todo by [id]
-    app.delete('/api/todo/:id', function(req, res) {
+    app.delete('/api/todos/:id', function(req, res) {
         Todos.findByIdAndRemove(req.params.id, function(err) {
             if (err) throw err;
             res.send("Success")
