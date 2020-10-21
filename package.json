@@ -1,0 +1,28 @@
+{
+  "name": "node_todo",
+  "version": "1.0.0",
+  "description": "A simple checklist application using nodeJS to create the package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatmalabidi/node_todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Fatma Labidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatmalabidi/node_todo/issues"
+  },
+  "homepage": "https://github.com/fatmalabidi/node_todo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "mongoose": "^5.10.9"
+  }
+}
