@@ -2,6 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import config from './config/index.js'
 import setupController from './controllers/setupController.js'
+import apiController from './controllers/apiController.js'
 
 var app = express();
 
@@ -21,5 +22,6 @@ app.set('view engine', 'ejs');
 mongoose.connect(config.getDbConnectionString());
 
 setupController(app);
+apiController(app);
 
 app.listen(port);
