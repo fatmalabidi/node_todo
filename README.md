@@ -19,3 +19,8 @@ npm install body-parser --save-dev
 ```shell
 npm install mongoose --save-dev   
 ```
+
+
+Mongo deployment:
+
+Database: user: test-user1
