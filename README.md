@@ -22,6 +22,8 @@ npm install mongoose --save
 3. Use [mlab](https://mlab.com/) to create your noSql database and get you connection string to be able to connect to it using `mongoose`.
 
 ### Run the app 
+Before running the app you need to create a user in the MongoDB (mlab) database and put the credentials in `config.json`
+also change the connection string in index.js file.
 * Development:
 ```shell
 nodemon app.js  
