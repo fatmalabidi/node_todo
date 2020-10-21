@@ -1,4 +1,5 @@
 {
+    "type": "module",
     "name": "node_todo",
     "version": "1.0.0",
     "description": "A simple checklist application using nodeJS to create the package.json",
@@ -11,7 +12,8 @@
         "url": "git+https://github.com/fatmalabidi/node_todo.git"
     },
     "keywords": [
-        "todo"
+        "todo",
+        "node"
     ],
     "author": "Fatma Labidi",
     "license": "ISC",
@@ -23,6 +25,7 @@
     "devDependencies": {
         "body-parser": "^1.19.0",
         "ejs": "^3.1.5",
+        "express": "^4.17.1",
         "mongoose": "^5.10.9"
     }
 }

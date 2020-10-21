@@ -1,0 +1,7 @@
+{
+    // this file is added to enable ES6 styling code
+    "compilerOptions": {
+        "target": "ES6",
+        
+    }
+}

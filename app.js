@@ -1,6 +1,8 @@
 import express from 'express'
 import mongoose from 'mongoose'
-import config from './config'
+import config from './config/index.js'
+import setupController from './controllers/setupController.js'
+
 var app = express();
 
 // [process] provided by node to read envirement variables 
@@ -18,5 +20,6 @@ app.set('view engine', 'ejs');
 //connect to the database: mongodb is a single connectio (will keep open)
 mongoose.connect(config.getDbConnectionString());
 
+setupController(app);
 
 app.listen(port);
