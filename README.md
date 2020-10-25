@@ -11,14 +11,16 @@ to create the package.json
  npm init 
 ```
 2. install our dependencies (`--save` will save the package to `dependencies` in `package.json`, replace it by `--save-dev` to save them in `devDependencies` in `package.json`): 
+* install [EJS](https://ejs.co/) (Embedded JavaScript templating): used to be able to write Javascript code with the HTML files
 
 ```shell
 npm install ejs --save 
 ```
+* install `body-parser` that will be used to parse the http request
 ```shell
 npm install body-parser --save
 ```
-
+* install [mongoose](https://mongoosejs.com/docs/) to connect to our databse
 ```shell
 npm install mongoose --save  
 ```
