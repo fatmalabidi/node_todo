@@ -10,7 +10,7 @@ to create the package.json
 ```shell
  npm init 
 ```
-2. install our dependencies (`--save` will save the to `dependencies` in `package.json`, replace it by `--save-dev` to save them in `devDependencies` in `package.json`): 
+2. install our dependencies (`--save` will save the package to `dependencies` in `package.json`, replace it by `--save-dev` to save them in `devDependencies` in `package.json`): 
 
 ```shell
 npm install ejs --save 
@@ -22,7 +22,7 @@ npm install body-parser --save
 ```shell
 npm install mongoose --save  
 ```
-3. Use [mlab](https://mlab.com/) to create your noSql database and get you connection string to be able to connect to it using `mongoose`.
+3. Use [mlab](https://mlab.com/) to create your noSql database and get your connection string to be able to connect to it using `mongoose`.
 
 ### Run the app 
 Before running the app you need to create a user in the MongoDB (mlab) database and put the credentials in `config.json`
