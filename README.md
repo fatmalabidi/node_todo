@@ -2,6 +2,9 @@
 A simple checklist application using nodeJS
 to create the package.json
 
+### Requirements
+* Node Package Manager: [npm](https://www.npmjs.com/get-npm)
+* [NodeJS](https://nodejs.org/en/download/)
 ### Setup the envirement
 1. initialisation od the project to create the  `package.json`:
 ```shell
