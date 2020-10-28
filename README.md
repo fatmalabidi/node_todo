@@ -32,3 +32,32 @@ nodemon app.js
 ```shell
 node app.js
 ```
+### Building your image
+* Run the docker engine:
+
+```shell
+ sudo systemctl start docker
+ ```
+ 
+ * build the docker image for the application:
+
+```shell
+ sudo docker build .
+ ```
+ check if the image exists:
+```shell
+ sudo docker images 
+ ```
+or
+```shell
+ sudo docker image ls
+ ```
+* Run the image
+
+
+
+
+### Useful links
+* [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+* [Building Efficient Dockerfiles - Node.js](http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/)   
+* [Introducing `npm ci` for faster, more reliable builds](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable)
