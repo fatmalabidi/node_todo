@@ -21,6 +21,8 @@ npm install mongoose --save
 ```
 3. Use [mlab](https://mlab.com/) to create your noSql database and get you connection string to be able to connect to it using `mongoose`.
 
+4. [Insttall and setup Docker](https://docs.docker.com/engine/install/fedora/)   
+
 ### Run the app 
 Before running the app you need to create a user in the MongoDB (mlab) database and put the credentials in `config.json`
 also change the connection string in index.js file.
@@ -32,7 +34,7 @@ nodemon app.js
 ```shell
 node app.js
 ```
-### Building your image
+### Building your docker image
 * Run the docker engine:
 
 ```shell
